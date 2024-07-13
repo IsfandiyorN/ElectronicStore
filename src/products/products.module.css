@@ -1,0 +1,124 @@
+:root {
+    --hammer-font: "Hammersmith One",
+        sans-serif;
+    --readex-font: "Readex Pro",
+        sans-serif;
+    --base-fontsize: 16px;
+}
+
+.cards {
+    display: grid;
+    margin-top: 67px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    list-style-type: none;
+    padding-right: 73px;
+    padding-left: 50px;
+    gap: 36px;
+    row-gap: 68px;
+}
+
+.ProductsContainer {
+    flex: 4;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--hammer-font);
+    margin-top: 22px;
+}
+
+.desc {
+    font-family: var(--readex-font);
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.price {
+    font-family: var(--readex-font);
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 26px;
+    color: #024548;
+}
+
+button {
+    font-family: var(--hammer-font);
+    padding: 16px 33px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 22px;
+    background-color: #0b9ca4;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #13ff46;
+}
+
+aside {
+    flex: 1;
+    margin-top: 67px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+
+}
+
+input[type="checkbox"] {
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 18px;
+}
+
+
+
+h2 {
+    padding: 28px 140px 0 0;
+    border-top: 1px dotted gray;
+    font-family: var(--hammer-font);
+    font-size: 20px;
+    margin-bottom: 22px;
+    font-weight: 400;
+}
+
+label {
+    font-family: var(--readex-font);
+    font-weight: 300;
+    color: #190D26;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.page{
+    display: flex;
+    flex-direction: row-reverse;
+}

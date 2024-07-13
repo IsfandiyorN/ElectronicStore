@@ -1,0 +1,23 @@
+:root {
+  --hammer-font: "Hammersmith One",
+    sans-serif;
+  --readex-font: "Readex Pro",
+    sans-serif;
+  --base-fontsize: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: var(--base-fontsize);
+  scroll-behavior: smooth;
+}
+
